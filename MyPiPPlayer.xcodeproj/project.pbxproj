@@ -10,9 +10,22 @@
 		07AA0F452E2817D900639F85 /* MyPiPPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPiPPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		0756249A2E2819C40021FB33 /* Exceptions for "MyPiPPlayer" folder in "MyPiPPlayer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 07AA0F442E2817D900639F85 /* MyPiPPlayer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		07AA0F472E2817D900639F85 /* MyPiPPlayer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				0756249A2E2819C40021FB33 /* Exceptions for "MyPiPPlayer" folder in "MyPiPPlayer" target */,
+			);
 			path = MyPiPPlayer;
 			sourceTree = "<group>";
 		};
@@ -252,9 +265,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyPiPPlayer/Preview Content\"";
-				DEVELOPMENT_TEAM = 4WJQ4783MG;
+				DEVELOPMENT_TEAM = KCM9QBTU89;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyPiPPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -281,9 +295,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MyPiPPlayer/Preview Content\"";
-				DEVELOPMENT_TEAM = 4WJQ4783MG;
+				DEVELOPMENT_TEAM = KCM9QBTU89;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyPiPPlayer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
